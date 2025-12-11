@@ -39,8 +39,8 @@ export default function InputStates() {
             value={email}
             error={error}
             onChange={handleEmailChange}
-            placeholder="Enter your email"
-            hint={error ? "This is an invalid email address." : ""}
+            placeholder="Digite seu e-mail"
+            hint={error ? "Este endereço de e-mail é inválido." : ""}
           />
         </div>
 
@@ -52,8 +52,8 @@ export default function InputStates() {
             value={emailTwo}
             success={!error}
             onChange={handleEmailTwoChange}
-            placeholder="Enter your email"
-            hint={!error ? "This is an success message." : ""}
+            placeholder="Digite seu email"
+            hint={!error ? "Esta é uma mensagem de sucesso." : ""}
           />
         </div>
 
@@ -62,9 +62,9 @@ export default function InputStates() {
           <Label>Email</Label>
           <Input
             type="text"
-            value="disabled@example.com"
+            value="SeuEmail@example.com"
             disabled={true}
-            placeholder="Disabled email"
+            placeholder="Email desabilitado"
           />
         </div>
       </div>

@@ -60,11 +60,11 @@ const DropzoneComponent: React.FC = () => {
             </h4>
 
             <span className=" text-center mb-5 block w-full max-w-[290px] text-sm text-gray-700 dark:text-gray-400">
-              Drag and drop your PNG, JPG, WebP, SVG images here or browse
+              Arraste e solte suas imagens PNG, JPG, WebP e SVG aqui ou navegue.
             </span>
 
             <span className="font-medium underline text-theme-sm text-brand-500">
-              Browse File
+              Procurar arquivo
             </span>
           </div>
         </form>

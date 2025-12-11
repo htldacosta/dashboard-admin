@@ -11,7 +11,7 @@ export default function TextAreaInput() {
       <div className="space-y-6">
         {/* Default TextArea */}
         <div>
-          <Label>Description</Label>
+          <Label>Descrição</Label>
           <TextArea
             value={message}
             onChange={(value) => setMessage(value)}
@@ -21,19 +21,19 @@ export default function TextAreaInput() {
 
         {/* Disabled TextArea */}
         <div>
-          <Label>Description</Label>
+          <Label>Descrição</Label>
           <TextArea rows={6} disabled />
         </div>
 
         {/* Error TextArea */}
         <div>
-          <Label>Description</Label>
+          <Label>Descrição</Label>
           <TextArea
             rows={6}
             value={messageTwo}
             error
             onChange={(value) => setMessageTwo(value)}
-            hint="Please enter a valid message."
+            hint="Por favor, insira uma mensagem válida.
           />
         </div>
       </div>

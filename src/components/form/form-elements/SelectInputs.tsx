@@ -8,10 +8,10 @@ export default function SelectInputs() {
   const options = [
     { value: "marketing", label: "Marketing" },
     { value: "template", label: "Template" },
-    { value: "development", label: "Development" },
+    { value: "devesenvolvimento", label: "Devesenvolvimento" },
   ];
   const handleSelectChange = (value: string) => {
-    console.log("Selected value:", value);
+    console.log("Selecione o valor:", value);
   };
   const [selectedValues, setSelectedValues] = useState<string[]>([]);
 
@@ -26,17 +26,17 @@ export default function SelectInputs() {
     <ComponentCard title="Select Inputs">
       <div className="space-y-6">
         <div>
-          <Label>Select Input</Label>
+          <Label>Selecione a entrada</Label>
           <Select
             options={options}
-            placeholder="Select Option"
+            placeholder="Selecione a opção"
             onChange={handleSelectChange}
             className="dark:bg-dark-900"
           />
         </div>
         <div>
           <MultiSelect
-            label="Multiple Select Options"
+            label="Opções de seleção múltipla"
             options={multiOptions}
             defaultSelected={["1", "3"]}
             onChange={(values) => setSelectedValues(values)}

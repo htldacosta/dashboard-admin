@@ -10,9 +10,9 @@ export default function LineChart() {
         title="React.js Chart Dashboard | TailAdmin - React.js Admin Dashboard Template"
         description="This is React.js Chart Dashboard page for TailAdmin - React.js Tailwind CSS Admin Dashboard Template"
       />
-      <PageBreadcrumb pageTitle="Line Chart" />
+      <PageBreadcrumb pageTitle="Gráfico de linhas" />
       <div className="space-y-6">
-        <ComponentCard title="Line Chart 1">
+        <ComponentCard title="Gráfico de linhas 1">
           <LineChartOne />
         </ComponentCard>
       </div>

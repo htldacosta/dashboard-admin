@@ -3,37 +3,37 @@ import Switch from "../switch/Switch";
 
 export default function ToggleSwitch() {
   const handleSwitchChange = (checked: boolean) => {
-    console.log("Switch is now:", checked ? "ON" : "OFF");
+    console.log("O Switch agora é:", checked ? "ON" : "OFF");
   };
   return (
-    <ComponentCard title="Toggle switch input">
+    <ComponentCard title="entrada de interruptor de alternância">
       <div className="flex gap-4">
         <Switch
-          label="Default"
+          label="Padrão"
           defaultChecked={true}
           onChange={handleSwitchChange}
         />
         <Switch
-          label="Checked"
+          label="Verificada"
           defaultChecked={true}
           onChange={handleSwitchChange}
         />
-        <Switch label="Disabled" disabled={true} />
+        <Switch label="Desabilitado" disabled={true} />
       </div>{" "}
       <div className="flex gap-4">
         <Switch
-          label="Default"
+          label="Padrão"
           defaultChecked={true}
           onChange={handleSwitchChange}
           color="gray"
         />
         <Switch
-          label="Checked"
+          label="Verificada"
           defaultChecked={true}
           onChange={handleSwitchChange}
           color="gray"
         />
-        <Switch label="Disabled" disabled={true} color="gray" />
+        <Switch label="Desabilitado" disabled={true} color="gray" />
       </div>
     </ComponentCard>
   );

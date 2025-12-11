@@ -31,20 +31,20 @@ export default function InputGroup() {
           </div>
         </div>
         <div>
-          <Label>Phone</Label>
+          <Label>telefone</Label>
           <PhoneInput
             selectPosition="start"
             countries={countries}
-            placeholder="+1 (555) 000-0000"
+            placeholder="+55 (69) 00000-0000"
             onChange={handlePhoneNumberChange}
           />
         </div>{" "}
         <div>
-          <Label>Phone</Label>
+          <Label>telefone</Label>
           <PhoneInput
             selectPosition="end"
             countries={countries}
-            placeholder="+1 (555) 000-0000"
+            placeholder="+55 (69) 00000-0000"
             onChange={handlePhoneNumberChange}
           />
         </div>

@@ -29,7 +29,7 @@ export default function DefaultInputs() {
           <Input type="text" id="inputTwo" placeholder="info@gmail.com" />
         </div>
         <div>
-          <Label>Select Input</Label>
+          <Label>Selecione a entrada</Label>
           <Select
             options={options}
             placeholder="Select an option"
@@ -38,7 +38,7 @@ export default function DefaultInputs() {
           />
         </div>
         <div>
-          <Label>Password Input</Label>
+          <Label>Entrada de senha</Label>
           <div className="relative">
             <Input
               type={showPassword ? "text" : "password"}
@@ -70,7 +70,7 @@ export default function DefaultInputs() {
         </div>
 
         <div>
-          <Label htmlFor="tm">Time Picker Input</Label>
+          <Label htmlFor="tm">Entrada do seletor de tempo</Label>
           <div className="relative">
             <Input
               type="time"
@@ -84,7 +84,7 @@ export default function DefaultInputs() {
           </div>
         </div>
         <div>
-          <Label htmlFor="tm">Input with Payment</Label>
+          <Label htmlFor="tm">Entrada com pagamento</Label>
           <div className="relative">
             <Input
               type="text"

@@ -29,10 +29,10 @@ const tableData: Order[] = [
     id: 1,
     user: {
       image: "/images/user/user-17.jpg",
-      name: "Lindsey Curtis",
+      name: "rafael grilo",
       role: "Web Designer",
     },
-    projectName: "Agency Website",
+    projectName: "Agência WebSite",
     team: {
       images: [
         "/images/user/user-22.jpg",
@@ -40,43 +40,43 @@ const tableData: Order[] = [
         "/images/user/user-24.jpg",
       ],
     },
-    budget: "3.9K",
-    status: "Active",
+    budget: "3.9k",
+    status: "Ativo",
   },
   {
     id: 2,
     user: {
       image: "/images/user/user-18.jpg",
-      name: "Kaiya George",
-      role: "Project Manager",
+      name: "George oliveira",
+      role: "gestor de produto",
     },
-    projectName: "Technology",
+    projectName: "T.I",
     team: {
       images: ["/images/user/user-25.jpg", "/images/user/user-26.jpg"],
     },
     budget: "24.9K",
-    status: "Pending",
+    status: "Pendente",
   },
   {
     id: 3,
     user: {
       image: "/images/user/user-17.jpg",
-      name: "Zain Geidt",
-      role: "Content Writing",
+      name: "lucas campos",
+      role: "Copywriter",
     },
-    projectName: "Blog Writing",
+    projectName: "Blogeiro",
     team: {
-      images: ["/images/user/user-27.jpg"],
+      images: ["/imagegs/user/user-27.jpg"],
     },
     budget: "12.7K",
-    status: "Active",
+    status: "Ativo",
   },
   {
     id: 4,
     user: {
       image: "/images/user/user-20.jpg",
-      name: "Abram Schleifer",
-      role: "Digital Marketer",
+      name: "Arnaldo barros",
+      role: "Marketing digital",
     },
     projectName: "Social Media",
     team: {
@@ -87,14 +87,14 @@ const tableData: Order[] = [
       ],
     },
     budget: "2.8K",
-    status: "Cancel",
+    status: "Cancelado",
   },
   {
     id: 5,
     user: {
       image: "/images/user/user-21.jpg",
-      name: "Carla George",
-      role: "Front-end Developer",
+      name: "Carla silva",
+      role: "Front-end",
     },
     projectName: "Website",
     team: {
@@ -105,7 +105,7 @@ const tableData: Order[] = [
       ],
     },
     budget: "4.5K",
-    status: "Active",
+    status: "Ativa",
   },
 ];
 
@@ -121,19 +121,19 @@ export default function BasicTableOne() {
                 isHeader
                 className="px-5 py-3 font-medium text-gray-500 text-start text-theme-xs dark:text-gray-400"
               >
-                User
+                Usuário
               </TableCell>
               <TableCell
                 isHeader
                 className="px-5 py-3 font-medium text-gray-500 text-start text-theme-xs dark:text-gray-400"
               >
-                Project Name
+                Nome do Projeto
               </TableCell>
               <TableCell
                 isHeader
                 className="px-5 py-3 font-medium text-gray-500 text-start text-theme-xs dark:text-gray-400"
               >
-                Team
+                Time
               </TableCell>
               <TableCell
                 isHeader

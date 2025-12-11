@@ -13,7 +13,7 @@ export default function FileInputExample() {
   return (
     <ComponentCard title="File Input">
       <div>
-        <Label>Upload file</Label>
+        <Label>Carregar arquivo</Label>
         <FileInput onChange={handleFileChange} className="custom-class" />
       </div>
     </ComponentCard>
